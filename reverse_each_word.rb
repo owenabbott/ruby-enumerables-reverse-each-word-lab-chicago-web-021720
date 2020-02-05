@@ -20,7 +20,7 @@ new_array.each do |space|
 end
 
 answer=this_is_getting_too_long.join("")
-pp answer
+
 pp answer.slice()
 return answer
 end
