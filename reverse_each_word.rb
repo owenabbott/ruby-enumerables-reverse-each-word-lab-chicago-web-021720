@@ -16,8 +16,8 @@ new_array = []
 end
 
 this_is_getting_too_long=[]
-new_array.collect {|n| " "+n }
-    this_is_getting_too_long.push (" "+space)
+new_array.collect do |n|
+  this_is_getting_too_long.push (" " + n)
 end
 
 answer=this_is_getting_too_long.join("")
