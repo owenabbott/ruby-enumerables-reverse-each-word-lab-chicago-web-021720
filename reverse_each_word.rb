@@ -22,7 +22,7 @@ end
 answer=this_is_getting_too_long.join("")
 
 new_answer = answer.slice(1, answer.length)
-return answer
+return new_answer
 end
 
 
