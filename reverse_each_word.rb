@@ -21,7 +21,7 @@ end
 
 answer=this_is_getting_too_long.join("")
 
-pp answer.slice()
+pp answer.slice(1,-1)
 return answer
 end
 
