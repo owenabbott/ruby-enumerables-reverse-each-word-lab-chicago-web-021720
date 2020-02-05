@@ -14,8 +14,9 @@ new_array = []
   for a in reversed_string.split(" ")
   new_array.unshift(a)
 end
+
 this_is_getting_too_long=[]
-new_array.each do |space|
+new_array.each.map do |space|
     this_is_getting_too_long.push (" "+space)
 end
 
@@ -26,3 +27,7 @@ return new_answer
 end
 
 
+#this_is_getting_too_long=[]
+#new_array.each do |space|
+#    this_is_getting_too_long.push (" "+space)
+#end
