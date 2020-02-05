@@ -16,7 +16,7 @@ new_array = []
 end
 
 this_is_getting_too_long=[]
-new_array.each.map do |space|
+new_array.collect {||, }
     this_is_getting_too_long.push (" "+space)
 end
 
