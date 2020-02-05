@@ -21,7 +21,7 @@ end
 
 answer=this_is_getting_too_long.join("")
 
-pp answer.slice(1, answer.length
+new_answer = answer.slice(1, answer.length)
 return answer
 end
 
