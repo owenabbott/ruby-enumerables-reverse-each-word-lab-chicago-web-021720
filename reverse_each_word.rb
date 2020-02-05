@@ -16,7 +16,7 @@ new_array = []
 end
 
 this_is_getting_too_long=[]
-new_array.collect {|n|, }
+new_array.collect {|n|,+" " }
     this_is_getting_too_long.push (" "+space)
 end
 
